@@ -16,4 +16,4 @@ def check_data():
     return jsonify(format_response(f"Processed: {text}", 200))
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+    app.run(host="127.0.0.1", port=5000)
